@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAC_UF1_MARTINEZ_GARCIA_PABLO_JESUS</title>
+    <link rel="stylesheet" type="text/css"  href="estilo.css">
+</head>
+<body>
+
+<form action="ejercicio_2-1.html" method="GET">
+
+    <!-- Primera agrupación: Número y zona de entradas -->
+
+    <fieldset>
+        <legend>Entradas</legend>
+        <div class="etiquetas">
+            <label for="numero_de_entradas">Número de entradas:</label>
+            <select name="numero_de_entradas" id="numero_de_entradas" required>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+        
+            </select><br><br>   
+
+        <!-- Desplegable para elegir la zona donde comprar la entrada -->
+
+            <label for="categoría">Categoría:</label>
+            <select id="categoría" name="categoría" required>
+                <option value="zona1">Pista general</option>
+                <option value="zona2">Primer anfiteatro</option>
+                <option value="zona3">Segundo anfiteatro</option>
+            </select>
+        </div>
+    </fieldset>
+
+    <!-- Segunda agrupacion: Datos comprador -->
+    <fieldset>  
+        <legend>Datos del comprador</legend>
+        <div class="etiquetas">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required><br><br>
+            <label for="apellido">Apellidos:</label>
+            <input type="text" id="apellido" name="apellido" required><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="fecha_nacimiento">Fecha de nacimiento:</label>
+            <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required min="01-01-1900" max="31-12-2024">
+        </div>
+    </fieldset>
+
+    <!-- Tercera agrupación: elegir el método de pago -->   
+    <fieldset>
+        <legend>Pago</legend>
+        
+        <input type="radio" name="tipo_pago" value="Visa" id="radio" required>
+        <img src="img/visaLogo.png" alt="Visa"><br>
+        <input type="radio" name="tipo_pago" value="Master_Card" id="radio" required>
+        <img src="img/masterLogo.png" alt="Master Card"><br>
+        <input type="radio" name="tipo_pago" value="PayPal" id="radio" required>
+        <img src="img/paypalLogo.png" alt="Paypal"><br>
+        <input type="radio" name="tipo_pago" value="Bizum" id="radio" required>
+        <img src="img/bizumLogo.jpg" alt="Bizum"><br><br>
+        <input type="checkbox" name="terminos" value="terminos" required>
+        <label for="terminos">Acepto las condiciones de compra</label><br><br><br>
+
+
+        <!-- Botón para aceptar la compra -->
+        <a href="ejercicio_2-1.html"><input type="submit" value="Proceder al pago" id="boton_aceptar_compra"></a>
+    </fieldset>
+
+    
+    
+
+</form>
+
+</body>
+</html>

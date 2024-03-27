@@ -1,0 +1,28 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: skyblue;
+    color: darkblue;
+}
+legend {
+    font-family: verdana;
+}
+
+.etiquetas {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+   
+img {
+    align-content: center;
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-right: 10px;
+    width: 50px;    
+}
+
+#boton_aceptar_compra {
+    padding: 25px;
+    background-color: darkblue;
+    color: skyblue;
+    font-size: 2em;
+}
