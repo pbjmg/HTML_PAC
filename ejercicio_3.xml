@@ -32,7 +32,7 @@
 		<video>XtMfCf3vFbc</video>
 	</artista>
 	<artista>
-		<nombre>Mahmood &amp; Blanco</nombre>
+		<nombre>Mahmood &amp; Blanco</nombre> <!--Sustituyo el carácter & por &amp; ya que el uso de & es ilegal en XML-->
 		<pais>Italia</pais>
 		<idioma>Italiano</idioma>
 		<titulo>
