@@ -4,17 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PAC_UF1_MARTINEZ_GARCIA_PABLO_JESUS</title>
-    <link rel="stylesheet" type="text/css"  href="estilo.css">
+    <link rel="stylesheet" type="text/css"  href="estilo.css"> <!-- Enlazo con el archivo estilo.css para asignar los estilos-->
 </head>
 <body>
 
-<form action="ejercicio_2-1.html" method="GET">
+<form action="ejercicio_2-1.html" method="GET"> <!-- He añadido una referencia relativa a "action" para enlazar con el archivo "ejercicios_2-1.html" al enviar el formulario -->
 
     <!-- Primera agrupación: Número y zona de entradas -->
 
     <fieldset>
         <legend>Entradas</legend>
-        <div class="etiquetas">
+        <div class="etiquetas"> <!-- Declaro una clase con nombre "etiquetas" para asignarle los estilos específicos a este bloque-->
             <label for="numero_de_entradas">Número de entradas:</label>
             <select name="numero_de_entradas" id="numero_de_entradas" required>
                 <option value="1">1</option>
@@ -54,7 +54,6 @@
     <!-- Tercera agrupación: elegir el método de pago -->   
     <fieldset>
         <legend>Pago</legend>
-        
         <input type="radio" name="tipo_pago" value="Visa" id="radio" required>
         <img src="img/visaLogo.png" alt="Visa"><br>
         <input type="radio" name="tipo_pago" value="Master_Card" id="radio" required>
