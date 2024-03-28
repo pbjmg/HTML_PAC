@@ -1,0 +1,54 @@
+<?xml version=”1.0” encoding=”UTF-8”?>
+<participantes> <!-- Se incluyen los participantes -->
+	<artista>
+		<nombre>Malik Harris</nombre>
+		<pais>Alemania</pais>
+		<idioma>Inglés</idioma>
+		<titulo>
+			<original>Rockstar</original>
+			<castellano>Estrellas del rock</castellano>
+		</titulo>
+		<video>D3FN2umFaM8</video>
+	</artista>
+	<artista>
+		<nombre>Chanel</nombre>
+		<pais>España</pais>
+		<idioma>Español</idioma>
+		<idioma>Inglés</idioma>
+		<titulo>
+			<original>Slomo</original>
+			<castellano>Cámara lenta</castellano>
+		</titulo>
+		<video>TO2yGXVQCfo</video>
+	</artista>
+	<artista>
+		<nombre>The Rasmus</nombre>
+		<pais>Finlandia</pais>
+		<idioma>Inglés</idioma>
+		<titulo>
+			<original>Jezebel</original>
+			<castellano>Jezebel</castellano>
+		</titulo>
+		<video>XtMfCf3vFbc</video>
+	</artista>
+	<artista>
+		<nombre>Mahmood &amp Blanco</nombre>
+		<pais>Italia</pais>
+		<idioma>Italiano</idioma>
+		<titulo>
+			<original>Brividi</original>
+			<castellano>Escalofríos</castellano>
+		</titulo>
+		<video>4MgMhzfUmiA</video>
+	</artista>
+	<artista>
+		<nombre>Kalush Orchstra</nombre>
+		<pais>Ucrania</pais>
+		<idioma>Ucraniano</idioma>
+		<titulo>
+			<original>Stefania</original>
+			<castellano>Estefanía</castellano>
+		</titulo>
+		<video>UiEGVYOruLk</video>
+	</artista>
+</participantes>
